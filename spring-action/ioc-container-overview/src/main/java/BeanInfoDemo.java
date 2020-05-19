@@ -1,5 +1,3 @@
-package org.jaising.test.spring;
-
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;

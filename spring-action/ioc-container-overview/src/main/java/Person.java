@@ -1,5 +1,3 @@
-package org.jaising.test.spring;
-
 /**
  * @Author: Jaising
  * @Description: Setter / Getter
