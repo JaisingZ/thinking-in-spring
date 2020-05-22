@@ -37,7 +37,7 @@ public class DependencyLookup {
     private static void lookupByAnnotation(BeanFactory beanFactory) {
         if (beanFactory instanceof ListableBeanFactory) {
             ListableBeanFactory listableBeanFactory = (ListableBeanFactory) beanFactory;
-            Map<String, User> users = (Map) ((ListableBeanFactory) beanFactory).getBeansWithAnnotation(Super.class);
+            Map<String, User> users = (Map) listableBeanFactory.getBeansWithAnnotation(Super.class);
             System.out.println("通过@Super注解查找所有user对象:" + users);
         }
     }
