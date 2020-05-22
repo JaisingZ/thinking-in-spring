@@ -23,6 +23,8 @@ public class AnnotationAsIoCContainer {
         applicationContext.refresh();
         // 依赖查找集合对象
         lookupCollectionByType(applicationContext);
+        // 关闭应用上下文
+        applicationContext.close();
     }
 
     /**
