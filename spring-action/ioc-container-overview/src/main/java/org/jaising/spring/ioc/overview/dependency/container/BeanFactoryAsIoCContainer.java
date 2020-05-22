@@ -11,10 +11,10 @@ import java.util.Map;
 
 /**
  * @Author: Jaising
- * @Description: IoC容器
+ * @Description: {@link BeanFactory} 作为IoC容器
  * @Date: Created in 5/22/2020 9:16 PM
  */
-public class IoCContainer {
+public class BeanFactoryAsIoCContainer {
 
     public static void main(String[] args) {
         // 创建 BeanFactory 容器
